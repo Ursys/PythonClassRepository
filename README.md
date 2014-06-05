@@ -10,3 +10,6 @@ To commit to GitHub:
     git add <file> (this adds the files to commit)
     git commit -am "commit message" (this adds the message to the commit)
     git push (this pushes the file to GitHub)
+
+To pull changes from GitHub:
+    git pull (updates cloud9 with latest GitHub files)
