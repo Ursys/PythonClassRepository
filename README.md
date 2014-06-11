@@ -3,6 +3,8 @@ PythonClassRepository
 
 Repository for learning Python and programming techniques via edx
 
+When using Cloud9 use the following to commit files to GitHub and run the application in Cloud9 Terminal:
+
 to run a file use Terminal Alt-t (View --> Terminal --> New Terminal)
 type into the command line: python fileName.py
 
