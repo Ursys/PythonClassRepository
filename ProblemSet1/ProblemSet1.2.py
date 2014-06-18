@@ -1,3 +1,5 @@
+# This code passed the test on the course website
+
 s = 'azcbobobegghakl'
 bobCount = 0
 whileCount = len(s)
