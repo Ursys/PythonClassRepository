@@ -1,3 +1,5 @@
+# This code passed the test on the course website
+
 s = 'Sandra'
 count = 0
 
