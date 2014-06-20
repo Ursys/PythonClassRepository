@@ -8,6 +8,8 @@ When using Cloud9 use the following to commit files to GitHub and run the applic
 to run a file use Terminal Alt-t (View --> Terminal --> New Terminal)
 type into the command line: python fileName.py
 
+To check for untracked files:
+    git add -A -n (The -A adds all untracked files and the -n make it a dryrun so they are not actually added)
 To commit to GitHub:
     git add <file> (this adds the files to commit)
     git commit -am "commit message" (this adds the message to the commit)
