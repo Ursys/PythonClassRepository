@@ -1,9 +1,7 @@
-# This code passed the test on the course website
+balance = 1661.32
+annualInterestRate = 0.2199
 
-balance = 320000
-annualInterestRate = 0.2
-
-epsilon = 0.005
+epsilon = 0.0001
 LowBound = balance/12.0
 HighBound = (balance * (1 + annualInterestRate/12.0)**12)/12.0
 minPayment = (HighBound + LowBound)/2.0

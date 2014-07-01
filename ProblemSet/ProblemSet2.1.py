@@ -1,7 +1,7 @@
 # This code passed the test on the course website
 
-balance = 4213  # needs to be only two decimal places
-annualInterestRate = 0.2 
+balance = 4768.20  # needs to be only two decimal places
+annualInterestRate = 0.1725 
 monthlyPaymentRate = 0.04
 
 def annualCreditCardPayment (balance, annualIntrestRate, monthlyPaymentRate):
