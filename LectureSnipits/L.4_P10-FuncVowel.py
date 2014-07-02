@@ -4,9 +4,12 @@ def isVowel(char):
 
     returns: True if char is a vowel and False otherwise.
     '''
+    index = 0
     vowels = 'a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U'
-    if char == 'a' or 'A' # or 'e' or 'E' or 'i' or 'I' or 'o' or 'O' or 'u' or 'U'
-        return True
+    while index < len(vowels):
+        if char == vowels[index]:
+            return True
+        index += 1
     return False
     
 print isVowel('a')
